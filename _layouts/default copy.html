@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 
 <style>
-    html{
-        height: 100%;
-    }
-    
-    body {
+    html,body {
         height: 100%;
         margin: 0;
         padding: 0;
         background-color: #00CC00;
         background-size: 100%;
-        background-image:"{{site.url}}/assets/img/neuralconcept.jpg";
     }
 
 #bg {
@@ -29,7 +24,7 @@
   {% include head.html %}
   <body  >
       {% include header.html %}
-
+      <img src="{{site.url}}/assets/img/neuralconcept.jpg" id="bg" alt="">
 <!--      <section id="about">-->
 <!--        {% include about.html %}-->
 <!--      </section>-->
