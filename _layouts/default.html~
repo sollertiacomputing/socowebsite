@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
+  <style>
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #FFCC00;
+    }
+  </style>
+
   <body background="{{site.url}}/assets/img/neuralconcept.jpg">
       {% include header.html %}
 <!--      <section id="about">-->
