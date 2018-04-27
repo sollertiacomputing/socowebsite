@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 
 <style>
-    html, body {
+    html,body {
         height: 100%;
         margin: 0;
         padding: 0;
-        background-color: #CCCC00;
+        background-color: #00CC00;
         background-size: 100%;
     }
 
-.bg {
-    /* The image used */
-    background-image: url("{{site.url}}/assets/img/neuralconcept.jpg");
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
     
-    /* Full height */
-    height: 100%;
-    
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
 }
 </style>
 
 <html lang="en">
   {% include head.html %}
-
-  <body>
+  <img src="{{site.url}}/assets/img/neuralconcept.jpg" id="bg" alt="">
+  <body  >
       {% include header.html %}
-      <div class="bg"></div>
 <!--      <section id="about">-->
 <!--        {% include about.html %}-->
 <!--      </section>-->
