@@ -5,7 +5,7 @@
         <span class="site-description" style="font-size:30px">{{site.user_title}}</span>
       </h1>
       <div class="header-icons">
-        <a aria-label="Send email" href="mailto:pierre.baque@epfl.ch"><i class="icon fa fa-envelope"></i></a>
+        <i class="icon fa fa-envelope"></i>
       </div>
   </div>
 <!--  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>-->
